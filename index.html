@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Spruha Perumalla</title>
+</head>
+<body>
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <h1>Algowizzz</h1>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link home active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link about">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link contact">Contact</a>
+          </li>
+          <li class="nav-item">
+          <a href = "#" onclick="myFunction()"> <i class="fas fa-adjust"></i> </a>
+          </li>
+        </ul>
+      </div>
+      <div class="nav-toggle" id="nav-toggle">
+        <i class="bx bx-menu"></i>
+      </div>
+    </nav>
+  </header>
+
+
+
+  <main class="l-main">
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hi 👋,<br />I'am <span class="home-title-color">Sai Sri Spruha Perumalla</span><br />
+          <span id="jobTitle">Front-End Developer</span>
+        </h2>
+        <a href="https://drive.google.com/file/d/16iCPUn4Y6tSxFRJRORScBbU9jk4sOxUN/view?usp=drive_link" target="_blank"
+          class="button">Resume</a>
+      </div>
+      <div class="home-social">
+        <a href="https://github.com/algowizzz" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+    </section>
+
+
+
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+      <div class="about-container bd-grid">
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I'am Sai Sri Spruha Perumalla</h2>
+          <p class="about-text">
+            Hi! I’m Spruha, a creative and detail-oriented Frontend Developer with hands-on experience in building responsive, user-centric 
+            websites using HTML, CSS, JavaScript, and React. I specialize in creating clean, intuitive user interfaces that enhance user 
+            experience and reflect modern design standards. From designing static layouts to developing dynamic, component-based applications, 
+            I enjoy every part of the frontend development process. I’ve worked on various academic and personal projects that have helped me 
+            strengthen my understanding of responsive design, browser compatibility, and interactive features. While I currently focus on frontend 
+            technologies, I also have a basic understanding of Python, which helps me think logically and structure code effectively. 
+            I’m always eager to learn, explore new tools, and stay updated with the evolving trends in web development. When I'm not coding, 
+            you will find me playing chess, badminton and sketching.
+          </p>
+          <br />
+          <p>
+            Drop a mail spruhaperumalla@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-container bd-grid">
+        <div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="fab fa-html5 skills-icon"></i>
+              <span class="skills-name">HTML</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="fab fa-css3-alt skills-icon"></i>
+              <span class="skills-name">CSS</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="fab fa-js-square skills-icon"></i>
+              <span class="skills-name">JavaScript</span>
+            </div>
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="fab fa-react skills-icon"></i>
+              <span class="skills-name">React</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="fab fa-python skills-icon"></i>
+              <span class="skills-name">Python</span>
+            </div>
+          </div>
+          <div>
+             <div class="skills-data">
+              <div class="skills-names">
+                <i class="fab fa-github skills-icon"></i>
+                <span class="skills-name">Github</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="fab fa-git-alt skills-icon"></i>
+                <span class="skills-name">Git</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <i class="fas fa-cogs skills-icon"></i>
+                <span class="skills-name">Data Structures and Algorithms</span>
+              </div>
+            </div> 
+          </div>
+        </div>
+    </section>
+
+
+
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+      <div class="project-container">
+        <div class="project-img">
+          <img src="w1.png" alt="feverdream" />
+          <p class="project-title">Fever Dream</p>
+          <p class="project-subtitle">
+            Fever Dream is a vibrant travel blog that offers destination guides, blog posts and photo galleries.
+            <br><br>HTML | CSS
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/algowizzz/Travel-Website" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://algowizzz.github.io/Travel-Website/" target="_blank" class="small-btn button">
+              <i class="bx bx-globe"></i>
+            </a>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="w2.png" alt="flashmath" />
+          <p class="project-title">Flashmath</p>
+          <p class="project-subtitle">
+            A web-based math learning tool featuring interactive flashcards with formulas and topic-wise 
+            quizzes. It covers key subjects like algebra, geometry, trigonometry, and calculus to support 
+            quick revision and self-assessment.
+            <br><br> HTML | CSS | Javascript
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/algowizzz/Math" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://algowizzz.github.io/Math/" target="_blank" class="small-btn button">
+              <i class="bx bx-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="g1.png" alt="pokemongame" />
+          <p class="project-title">Pokemon Game</p>
+          <p class="project-subtitle">
+            Test your Pokémon knowledge in this fun and interactive guessing game! A shadowed Pokémon silhouette is displayed, 
+            and your goal is to guess the correct character based on its shape. Perfect for fans of all generations of Pokémon—see 
+            how many you can recognize!
+            <br><br>HTML | CSS | JavaScript | React
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/algowizzz/Pokemon-Game" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://pokemon-game-one-psi.vercel.app/" target="_blank" class="small-btn button">
+              <i class="bx bx-globe"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="project-img">
+          <img src="g2.png" alt="guessword" />
+          <p class="project-title">Guess the Word Game</p>
+          <p class="project-subtitle">
+            An engaging word-guessing game where players have five attempts to identify a hidden word. 
+            Each incorrect guess provides a hint to guide the next attempt, enhancing the challenge and 
+            fun.
+            <br><br>HTML | CSS | JS
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/algowizzz/Word-Guess-Game" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://algowizzz.github.io/Word-Guess-Game/" target="_blank" class="small-btn button">
+              <i class="bx bx-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="w3.png" alt="icecream" />
+          <p class="project-title">Whisk & Wonder</p>
+          <p class="project-subtitle">
+            A fun and visually engaging website dedicated to ice cream lovers, offering a variety of ice 
+            cream flavors, topping combinations, and serving suggestions.<br><br> I'm currently working on adding few more options and make it more appealing.
+            <br><br>HTML | CSS | JS | React
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/algowizzz/Whisk-Wonder" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://whisk-wonder.vercel.app/" target="_blank" class="small-btn button">
+              <i class="bx bx-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="w4.png" alt="github" />
+          <p class="project-title">Github Profile Analyser</p>
+          <p class="project-subtitle">
+            This is a React + Vite web app that fetches and displays GitHub user data using the GitHub API. Users can view repositories, 
+            stars, forks, languages, and profile details in a clean, responsive UI. Built for speed and simplicity with real-time data 
+            fetching.
+            <br><br>HTML | CSS | JS | React
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/algowizzz/Github-Profile-Analyser" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://github-profile-analyser-sand.vercel.app/" target="_blank" class="small-btn button">
+              <i class="bx bx-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="w5.png" alt="codetracker" />
+          <p class="project-title">Code Profile Tracker</p>
+          <p class="project-subtitle">
+            This web application allows users to track and view their Codeforces profile statistics in real-time. By entering a Codeforces handle, users can access 
+            detailed information such as current rating, rank, contest history, and problem-solving activity. <br><br>I'm currently working on adding more features.
+            <br><br>HTML | CSS | JS | React
+          </p>
+          <div class="project-btns">
+            <a href="https://github.com/algowizzz/Code-Profile-Tracker" target="_blank" class="small-btn button">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="https://code-profile-tracker.vercel.app/" target="_blank" class="small-btn button">
+              <i class="bx bx-globe"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="d1.png" alt="codetracker" />
+          <p class="project-title">Strawberry Animation</p>
+          <p class="project-subtitle">
+            Tried this strawberry animation from yotube using Canva.
+          </p>
+          <div class="project-btns">
+            <a href="https://dribbble.com/shots/25874373-Berry-Bliss-Strawberry-Ice-Cream-Animation" target="_blank" class="small-btn button">
+              <i class="fab fa-dribbble"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="d2.png" alt="codetracker" />
+          <p class="project-title">Scoops of Joy</p>
+          <p class="project-subtitle">
+            Tried this Ice-Cream animation from yotube using Canva. It was a fun project to work on.
+          </p>
+          <div class="project-btns">
+            <a href="https://dribbble.com/shots/25876598-Scoops-of-Joy-Ice-Cream-Animation-Loop" target="_blank" class="small-btn button">
+              <i class="fab fa-dribbble"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">Get in Touch</h2>
+    <p class="footer-title">Spruha Perumalla</p>
+    <div class="footer-social">
+      <a href="mailto:spruhaperumalla@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="https://github.com/algowizzz" target="_blank" class="footer-icon"><i
+            class="bx bxl-github">
+          <br />
+          GitHub
+          </i></a>
+    </div>
+    <p>&#169; 2025 All rights reserved</p>
+  </footer>
+
+
+
+  <script src="main.js"></script>
+
+
+
+</body>
+</html>
